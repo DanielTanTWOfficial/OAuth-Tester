@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+	<title>Main Dashboard</title>
+	<script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+	<!-- once the user logins this page is shown -->
+	<h1>This is the dashboard page</h1>
+	<p>If you got here your credentials were valid!</p>
+	<button id="logout">Logout</button>
+
+	<script>
+	    document.getElementById("logout").onclick = function () {
+		location.href = "/";
+	    };
+	</script>
+    </body>
+</html>
